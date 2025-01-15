@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const mockUrls = [
-  "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt21NyKBiocJ4qgoxapOZy52YB0RuekHhTli6dW"
+  "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2gcqRF78EZ901WocTzq2YCH5sfDue4wVpxkva"
 ];
 
 const mockImages = mockUrls.map((url, index) => ({
@@ -15,7 +15,7 @@ export default function HomePage() {
       <div className="flex flex-wrap gap-4">
         {mockImages.map((image) => (
           <div key={image.id} className="w-48">
-            <img src={image.url} alt={`Image ${image.id}`} />
+            <img src={image.url}  />
           </div>
         ))}
       </div>
