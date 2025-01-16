@@ -1,10 +1,8 @@
 import Link from "next/link";
 
 const mockUrls = [
-  "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2gcqRF78EZ901WocTzq2YCH5sfDue4wVpxkva",
-  "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2kU9O8VxiXFUI1wQij6lmTW9zMcnfs2eKHdpS",
-  "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2kU9O8VxiXFUI1wQij6lmTW9zMcnfs2eKHdpS",
-  "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2kU9O8VxiXFUI1wQij6lmTW9zMcnfs2eKHdpS",
+  
+  "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2p0JbvSIdyANrqMHVt567FiOskouQRzea10Dl",
   "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2kU9O8VxiXFUI1wQij6lmTW9zMcnfs2eKHdpS",
   "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2SiLMzP37JTQO4SUzbPjFWXY50RAcqLvpZyCD"   
 
