@@ -9,17 +9,13 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-function nav(){
-return (
-<nav className="flex items-center justify between border-b p-4 text-xl font-semibold">
-  <a href="/gallery" className="cursor-pointer">Gallery</a>
-  <a href="/signnup" className="cursor-pointer">Sign up
-  </a>
-</nav>
-
-
-);
-
+function Nav() {
+  return (
+    <nav className="flex items-center justify-between border-b p-4 text-xl font-semibold">
+      <a href="/gallery" className="cursor-pointer">Gallery</a>
+      <a href="/signup" className="cursor-pointer">Sign up</a>
+    </nav>
+  );
 }
 
 export default function RootLayout({
@@ -28,8 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
-      <nav />
-        {children}</body>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }
