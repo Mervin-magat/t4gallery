@@ -13,7 +13,7 @@ export default async function HomePage() {
     <main className="p-4">
       <div className="flex flex-wrap gap-4">
         {image.map((post) => (
-          <div key={post.id}>{post.name}</div>
+          <div key={post.id}></div>
         ))}
         {image.map((image) => (
           <div key={image.id} className="w-48">
