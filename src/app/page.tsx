@@ -18,7 +18,7 @@ export default async function HomePage() {
         {image.map((image) => (
           <div key={image.id} className="w-48">
             <img src={image.url}  />
-            <div>{image.name}</div>
+            <div>{image.name}</div >
           </div>
         ))}
       </div>
