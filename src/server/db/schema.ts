@@ -32,6 +32,6 @@ export const image = createTable(
     ),
   },
   (example) => ({
-    nameIndex: index("name_idx").on(example.name),
+    nameIndex: index("name_idx").on(example.name) ,
   })
 );
