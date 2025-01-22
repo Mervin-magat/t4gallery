@@ -7,7 +7,6 @@ const mockUrls = [
   
   "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2p0JbvSIdyANrqMHVt567FiOskouQRzea10Dl",
   "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2kU9O8VxiXFUI1wQij6lmTW9zMcnfs2eKHdpS",
-
   "https://l83dugrv84.ufs.sh/f/JjS6TmY0oLt2SiLMzP37JTQO4SUzbPjFWXY50RAcqLvpZyCD"   
 
 
@@ -29,7 +28,7 @@ export default async function HomePage() {
         {posts.map((post) => (
           <div key={post.id}>{post.name}</div>
         ))}
-        {[...mockImages, ...mockImages, ...mockImages].map((image) => (
+        {mockImages.map((image) => (
           <div key={image.id} className="w-48">
             <img src={image.url}  />
           </div>
