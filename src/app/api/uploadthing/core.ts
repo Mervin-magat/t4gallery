@@ -43,7 +43,7 @@ export const ourFileRouter = {
 
         console.log("File URL:", file.url);
 
-        // Return metadata for the clientside `onClientUploadComplete` callback
+        // Return metadata for the clientside `onClientUploadComplete` callbacksk
         return { uploadedBy: metadata.userId };
       } catch (error) {
         console.error("Error saving file to database:", error);
