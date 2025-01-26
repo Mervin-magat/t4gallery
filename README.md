@@ -8,4 +8,4 @@
 -[x] Attach Data Base to UI
 -[x] Add Authentication (w/clerk)
 -[] Add Image Upload
--[] Error Managment (sentry)
+-[] Error Managment (w/sentry)
