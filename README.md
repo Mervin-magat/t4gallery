@@ -2,6 +2,10 @@
 
 ## TODO
 
--[] Make it Deploy
--[] Scaffold with basic  UI Mock Data
--[] Setup DataBase (postgreSQL)
+-[x] Make it Deploy
+-[x] Scaffold with basic  UI Mock Data
+-[x] Setup DataBase (postgreSQL)
+-[x] Attach Data Base to UI
+-[x] Add Authentication (w/clerk)
+-[] Add Image Upload
+-[] Error Managment (sentry)

@@ -2,11 +2,13 @@ import Link from "next/link";
 import { db } from "~/server/db";
 
 
+export const dynamic = "force-dynamic";
+
 
 export default async function HomePage() {
 
   const image=await db.query.image.findMany({
-    orderBy: (model, {desc}) => desc (model.id),
+    orderBy: (model, {asc}) => asc (model.id),
   });
 
   return (
