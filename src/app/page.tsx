@@ -28,7 +28,6 @@ async function Images (){
   );
 }
 
-
 export default async function HomePage() {
   return (
     <main className="p-4">
