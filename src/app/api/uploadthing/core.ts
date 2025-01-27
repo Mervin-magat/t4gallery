@@ -3,6 +3,7 @@ import { createUploadthing, type FileRouter } from "uploadthing/next";
 import { UploadThingError } from "uploadthing/server";
 import { db } from "~/server/db";
 import { image } from "~/server/db/schema"; // Import the image table definition
+import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 
 const f = createUploadthing();
 
@@ -39,6 +40,7 @@ export const ourFileRouter = {
         await db.insert(image).values({
           name: file.name,
           url: file.url,
+          userId: metadata.userId,
         });
 
         console.log("File URL:", file.url);
